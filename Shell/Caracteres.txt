@@ -1,0 +1,40 @@
+Caracteres
+
+-z  cad = Tamanho igual a zero            Exemplo: [ -z $nome ]
+
+-n  cad = Tamanho é diferente de zero     Exemplo: [ -n $estado ]
+
+cad1 = cad2 = são identicos	          Exemplo: [ $op = N ]
+   
+cad = não é nulo			  Exemplo: [ $cidade ]
+
+
+Números Inteiros
+
+int1	-eq	int2		Igual		Exemplo: [ $taxa -eq 10 ]
+
+int1	-ne	int2		Diferente	Exemplo: [ $massa -ne 100 ]
+
+int1	-gt	int2		maior que	Exemplo: [ $db -gt 52 ]
+
+int1	-ge	int2		maior ou igual	Exemplo: [ $ki -ge 8000 ]
+
+int1	-it	int2		menor que	Exemplo: [ $temp -it 16 ]
+
+int1	-le	int2		menor ou igual	Exemplo: [ $veloc -le 80 ]
+
+
+Arquivos
+
+-r	arq	tem permissão de leitura	Exemplo: [ -r $arquivo ] 
+
+-w	arq	tem permissão de escrita	Exemplo: [ -w "lista.text" ]
+
+-x	arq	tem permissão de execução
+
+-f	arq	é um arquivo
+
+-d	arq	é um diretório
+
+-s	arq	tamanho maior que 0
+
